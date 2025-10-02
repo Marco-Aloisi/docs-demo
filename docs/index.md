@@ -1,17 +1,26 @@
-# Welcome to MkDocs
+# Benvenuto in Docs Demo
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Questo è un esempio minimo di sito documentazione creato con **MkDocs Material**.
 
-## Commands
+Usa questo repository come punto di partenza per organizzare le tue pagine, esempi e riferimenti.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Link rapidi
 
-## Project layout
+- Getting started
+- Usage
+- Examples
+- Reference
+- About
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Come eseguire in locale
+
+1. Crea un ambiente virtuale: `python -m venv .venv`
+2. Attiva l'ambiente: `source .venv/bin/activate`
+3. Installa dipendenze: `pip install -r requirements.txt`
+4. Avvia il server di sviluppo: `mkdocs serve`
+
+Il sito sarà visibile in http://127.0.0.1:8000/
+
+---
+
+Di seguito trovi pagine di esempio per mostrare la struttura consigliata.
