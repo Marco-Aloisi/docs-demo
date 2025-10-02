@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://marco-aloisi.github.io/docs-demo/</loc>
+         <lastmod>2025-10-02</lastmod>
+    </url>
+    <url>
+         <loc>https://marco-aloisi.github.io/docs-demo/examples/</loc>
+         <lastmod>2025-10-02</lastmod>
+    </url>
+    <url>
+         <loc>https://marco-aloisi.github.io/docs-demo/getting-started/</loc>
+         <lastmod>2025-10-02</lastmod>
+    </url>
+    <url>
+         <loc>https://marco-aloisi.github.io/docs-demo/reference/</loc>
+         <lastmod>2025-10-02</lastmod>
+    </url>
+    <url>
+         <loc>https://marco-aloisi.github.io/docs-demo/usage/</loc>
+         <lastmod>2025-10-02</lastmod>
+    </url>
+</urlset>
