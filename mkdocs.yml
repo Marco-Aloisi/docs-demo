@@ -1,16 +1,19 @@
-name: material
-site_name: Progetto Docs Demo
-site_description: Esempio di documentazione con MkDocs + Material
-site_author: Marco Aloisi
+site_name: SRE Playbook
+site_description: Internal documentation for the SRE team
+site_author: SRE Team
 site_url: https://marco-aloisi.github.io/docs-demo/
 repo_url: https://github.com/Marco-Aloisi/docs-demo
 repo_name: GitHub
 theme:
   name: material
-  language: it
+  language: en
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.indexes
+    - content.tags
+    - search.highlight
+    - search.share
     - search.suggest
   palette:
     - scheme: default
@@ -22,18 +25,13 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-nav:
-  - Home: index.md
-  - Getting started: getting-started.md
-  - Usage: usage.md
-  - Examples: examples.md
-  - Reference: reference.md
-  - About: about.md
+  
 
 plugins:
   - search:
       lang:
-        - it
+        - en
+  - tags
 
 markdown_extensions:
   - admonition
@@ -41,4 +39,8 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+  - md_in_html
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg

@@ -1,26 +1,57 @@
-# Benvenuto in Docs Demo
+---
+title: Home
+summary: Navigation hub for SRE documentation
+hide:
+    - toc
+    - navigation
+---
 
-Questo è un esempio minimo di sito documentazione creato con **MkDocs Material**.
+# Welcome
 
-Usa questo repository come punto di partenza per organizzare le tue pagine, esempi e riferimenti.
+This is the SRE documentation hub. Start with the Guide to learn how to add content, then explore Environments, Operations, and Architecture.
 
-## Link rapidi
-
-- Getting started
-- Usage
-- Examples
-- Reference
-- About
-
-## Come eseguire in locale
-
-1. Crea un ambiente virtuale: `python -m venv .venv`
-2. Attiva l'ambiente: `source .venv/bin/activate`
-3. Installa dipendenze: `pip install -r requirements.txt`
-4. Avvia il server di sviluppo: `mkdocs serve`
-
-Il sito sarà visibile in http://127.0.0.1:8000/
+[Get started](guide/getting-started.md){ .md-button .md-button--primary }
+[Contributing](guide/contributing.md){ .md-button }
+[Tagging guide](guide/tagging-guide.md){ .md-button }
+[Official tags](guide/official-tags.md){ .md-button }
 
 ---
 
-Di seguito trovi pagine di esempio per mostrare la struttura consigliata.
+## Explore
+
+<div class="grid cards" markdown>
+
+- **Guide**  
+	How to write docs, templates, and tagging.  
+	[Open](guide/index.md)
+
+- **Onboarding**  
+	First steps, access, tools.  
+	[Open](onboarding/index.md)
+
+- **Environments**  
+	PROD, STAGING, and customer-specific profiles.  
+	[Open](environments/index.md)
+
+- **Operations**  
+	Observability, monitoring, and alerts standards.  
+	[Open](operations/index.md)
+
+- **Architecture**  
+	ADRs and architectural guidelines.  
+	[Open](architecture/index.md)
+
+</div>
+
+---
+
+## Run locally
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Local site: http://127.0.0.1:8000/
